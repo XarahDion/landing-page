@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", "sans-serif";
+}
+
+header {
+    background-color: #1F2937;
+    padding: 8px 98px;
+}
+
+#logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.top {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.hero {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-shrink: 0;
+    width: 50%;
+}
+
+.main {
+    font-size: 48px;
+    color:  #F9FAF8;
+    font-weight: bolder;
+}
+
+button {
+    color: #E5E7EB;
+    font-size: 1em;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    /*border: 2px solid red;*/
+    padding: 20px 100px 0px 100px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 25px;
+}
+
+.card-container {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    /*border: 2px solid red;*/
+    margin: 10px;
+}
+.four {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
+
+.sub {
+    text-align: center;
+    color: #1F2937;
+    font-size: 14px;
+    padding-top: 4px;
+    max-width: 160px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 10px 98px;
+    color:  #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
