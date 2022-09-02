@@ -11,7 +11,7 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 8px 98px;
+    padding: 14px 98px;
 }
 
 #logo {
@@ -148,6 +148,7 @@ em {
     font-size: 24px;
     font-weight: 900;
     margin-top: 16px;
+    padding-right: 100px;
 }
 
 .call {
