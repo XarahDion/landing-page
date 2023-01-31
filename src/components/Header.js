@@ -28,7 +28,7 @@ const Header = () => {
                 </People>
             </Container>
             <ImgContainer>
-                <HeaderImg src={stanos} alt="stanos" />
+                <a href='https://unsplash.com/fr/@stan_remnev' target='__blank'><HeaderImg src={stanos} alt="stanos" /></a>
             </ImgContainer>
         </Main>
     )
