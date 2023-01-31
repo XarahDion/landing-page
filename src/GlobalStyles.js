@@ -4,14 +4,14 @@ const GlobalStyle = createGlobalStyle`
     :root {
         --font-family: 'Manrope', sans-serif;
 
-        --gradient-text: linear-gradient(89.97deg, #9B55C5 1.84%, #FF9F4A 102.67%);
-        --gradient-bar: linear-gradient(103.22deg, #9B55C5 -13.86%, #FF9F4A 99.55%);
+        --gradient-text: linear-gradient(89.97deg, #9B55C5 1.84%, #5079FF 102.67%);
+        --gradient-bar: linear-gradient(103.22deg, #9B55C5 -13.86%, #5079FF 99.55%);
         
         --color-bg: #040C18;
         --color-footer : #040617;
         --color-blog: #042c54;
         --color-text: #C2C3DF;
-        --color-subtext: #FF9F4A;
+        --color-subtext: #5079FF;
         --color-button: #8A0BC8;
     }
 
