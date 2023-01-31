@@ -7,7 +7,6 @@ import Features from './Features'
 import Company from './Company'
 import Header from './Header'
 import CTA from './CTA'
-import Brand from './Brand'
 import Navbar from './navbar/Navbar'
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
                 <Navbar />
                 <Header />
             </Container>
-            <Brand />
             <Company />
             <Features />
             <Products />

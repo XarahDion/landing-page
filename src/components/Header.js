@@ -171,7 +171,7 @@ const Main = styled.div`
     font-family: var(--font-family);
     display: flex;
     flex-direction: row;
-    padding: 0rem 6rem;
+    padding: 1rem 6rem;
     @media screen and (max-width: 700px) {
         padding: 0rem 4rem;
     }

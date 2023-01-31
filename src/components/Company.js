@@ -93,7 +93,7 @@ const TopFeature = styled.div`
     margin: 1rem;
 `
 const Main = styled.div`
-    margin: 2rem 6rem;
+    margin: 6rem 6rem 4rem 6rem;
     display: flex;
     flex-direction: column;
     padding: 2rem;
