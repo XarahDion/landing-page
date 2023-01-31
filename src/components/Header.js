@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import people from '../assets/people.png'
 import stanos from '../assets/stanos.png'
 
 const Header = () => {
@@ -20,12 +19,6 @@ const Header = () => {
                     <Input type="email" placeholder="Your Email Address" />
                     <Button type="button">Get Started</Button>
                 </InputDiv>
-                <People>
-                    <PeopleImg src={people} alt="people" />
-                    <PeopleP>
-                        1,200 people requested access a visit in last 24 hours
-                    </PeopleP>
-                </People>
             </Container>
             <ImgContainer>
                 <a href='https://unsplash.com/fr/@stan_remnev' target='__blank'><HeaderImg src={stanos} alt="stanos" /></a>
@@ -45,32 +38,6 @@ const ImgContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-start;
-`
-const PeopleP = styled.p`
-    margin: 0 0 0 1rem;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 38px;
-    color: #fff;
-    text-align: center;
-    @media screen and (max-width: 1000px) {
-        margin: 0;
-    }
-`
-const PeopleImg = styled.img`
-    width: 182px;
-    height: 38px;
-`
-const People = styled.div`
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 2rem;
-    @media screen and (max-width: 1280px) {
-        flex-direction: column;
-    }
 `
 const Button = styled.button`
     flex: 0.6;
