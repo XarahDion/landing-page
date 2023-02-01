@@ -20,8 +20,8 @@ const Header = () => {
                     <Button type="button">Get Started</Button>
                 </InputDiv>
             </Container>
-            <ImgContainer>
-                <a href='https://unsplash.com/fr/@stan_remnev' target='__blank'><HeaderImg src={stanos} alt="stanos" /></a>
+            <ImgContainer href='https://unsplash.com/fr/@stan_remnev' target='__blank'>
+                <HeaderImg src={stanos} alt="stanos" />
             </ImgContainer>
         </Main>
     )
@@ -33,11 +33,11 @@ const HeaderImg = styled.img`
     width: auto;
     height: auto;
 `
-const ImgContainer = styled.div`
-    flex: 1;
+const ImgContainer = styled.a`
+    flex: 0.8;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 `
 const Button = styled.button`
     flex: 0.6;
@@ -55,7 +55,7 @@ const Button = styled.button`
     border-radius: 0px 5px 5px 0px;
     @media screen and (max-width: 650px) {
         font-size: 16px;
-        line-height: 24px;
+        line-height: 18px;
     }
     @media screen and (max-width: 490px) {
         font-size: 12px;
@@ -129,7 +129,7 @@ const Container = styled.div`
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    margin: 4rem 4rem 0rem 4rem;
+    margin: 1rem 4rem 0rem 4rem;
     @media screen and (max-width: 1050px) {
         margin: 0 0 3rem;
     }
